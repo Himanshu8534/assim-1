@@ -1,7 +1,7 @@
 FileManager.sh
 
 
-📌 Overview
+📌 Overview of assignment
 
 . This project is a Linux shell script (FileManager.sh) used to manage files and directories.
 
