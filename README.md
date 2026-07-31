@@ -50,18 +50,28 @@ FileManager.sh
 
 Directory
 
-./FileManager.sh addDir /tmp dir1
-./FileManager.sh listFiles /tmp
-./FileManager.sh listDirs /tmp
-./FileManager.sh listAll /tmp
-./FileManager.sh deleteDir /tmp dir1
+> ./FileManager.sh addDir /tmp dir1
+
+> ./FileManager.sh listFiles /tmp
+
+> ./FileManager.sh listDirs /tmp
+
+> ./FileManager.sh listAll /tmp
+
+> ./FileManager.sh deleteDir /tmp dir1
 
 File
 
-./FileManager.sh addFile /tmp file1.txt
-./FileManager.sh addContentToFile /tmp file1.txt "Hello"
-./FileManager.sh showFileBeginingContent /tmp file1.txt 5
-./FileManager.sh showFileEndContent /tmp file1.txt 5
-./FileManager.sh moveFile /tmp/file1.txt /tmp/file2.txt
-./FileManager.sh copyFile /tmp/file2.txt /tmp/
-./FileManager.sh deleteFile /tmp file2.txt
+> ./FileManager.sh addFile /tmp file1.txt
+
+> ./FileManager.sh addContentToFile /tmp file1.txt "Hello"
+
+> ./FileManager.sh showFileBeginingContent /tmp file1.txt 5
+
+> ./FileManager.sh showFileEndContent /tmp file1.txt 5
+
+> ./FileManager.sh moveFile /tmp/file1.txt /tmp/file2.txt
+
+> ./FileManager.sh copyFile /tmp/file2.txt /tmp/
+
+> ./FileManager.sh deleteFile /tmp file2.txt
